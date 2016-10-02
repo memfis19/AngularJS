@@ -53,4 +53,9 @@ input[type="text"] {
 .error {
   color: red;
   font-weight: bold;
+  margin-top: 100px;
+}
+ol {
+    margin-top: 100px;
+    display: block;
 }
