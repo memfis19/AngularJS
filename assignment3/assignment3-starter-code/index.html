@@ -23,7 +23,7 @@
     <!-- Bonus loader (see Bonus section of the assignment) -->
     <items-loader-indicator ng-show="narrower.loading"></items-loader-indicator>
     <!-- found-items should be implemented as a component -->
-    <found-items ng-hide="narrower.loading" found-items="narrower.found" on-remove="narrower.removeItem(index)"></found-items>
+    <found-items ng-hide="narrower.loading" found="narrower.found" on-remove="narrower.removeItem(index)"></found-items>
   </div>
 
 </body>

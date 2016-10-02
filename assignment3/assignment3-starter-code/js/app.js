@@ -15,9 +15,10 @@ function ItemsLoaderIndicatorDirective() {
 
 function FoundItemsDirective() {
   var ddo = {
+      restrict: 'AE',
       templateUrl: "template/narrowList.html",
       scope: {
-        items: '<foundItems',
+        items: '<found',
         onRemove: '&'
       }
   };
